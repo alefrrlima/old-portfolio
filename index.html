@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport", initial-scale=" 1.0">
+      <title>Alexandre Lima</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="icon" href="images/tab-icon.svg">
+   </head>
+   <body>
+      <header>
+         <div class="header-frame">
+            <div class="logo flex-column">
+               <a href="#sobre" class="ale">Alexandre Lima</a>
+            </div>
+            <nav>
+               <ul class="nav-flex">
+                  <li><a class="turn-green" href="#projetos">PROJETOS</a></li>
+                  <li><a class="turn-green" href="#experiencia">EXPERIÊNCIA</a></li>
+                  <li><a class="turn-green" href="#formacao">FORMAÇÃO</a></li>
+                  <li><a class="turn-green" href="#habilidades">HABILIDADES</a></li>
+                  <li><a class="turn-green" href="#contato">CONTATO</a></li>
+               </ul>
+               <ul class="mini-nav-flex">
+                  <li><a class="mini-nav-underline" href="#projetos">
+                     <svg class="img-30px bring-up" xmlns="http://www.w3.org/2000/svg"><path d="M6 21v-2l1-1H4q-.825 0-1.412-.587Q2 16.825 2 16V5q0-.825.588-1.413Q3.175 3 4 3h16q.825 0 1.413.587Q22 4.175 22 5v11q0 .825-.587 1.413Q20.825 18 20 18h-3l1 1v2Zm-2-5h16V5H4v11Zm0 0V5v11Z"/></svg></a>
+                  </li>
+                  <li><a class="mini-nav-underline" href="#experiencia">
+                     <svg class="img-30px bring-up" xmlns="http://www.w3.org/2000/svg"><path d="M9 15V9h6v6Zm2-2h2v-2h-2Zm-2 8v-2H7q-.825 0-1.412-.587Q5 17.825 5 17v-2H3v-2h2v-2H3V9h2V7q0-.825.588-1.412Q6.175 5 7 5h2V3h2v2h2V3h2v2h2q.825 0 1.413.588Q19 6.175 19 7v2h2v2h-2v2h2v2h-2v2q0 .825-.587 1.413Q17.825 19 17 19h-2v2h-2v-2h-2v2Zm8-4V7H7v10Zm-5-5Z"/></svg></a>
+                  </li>
+                  <li>
+                     <a class="mini-nav-underline" href="#formacao"><svg class="img-30px bring-up" xmlns="http://www.w3.org/2000/svg"><path d="M6 22q-.825 0-1.412-.587Q4 20.825 4 20V8q0-1.4.85-2.45Q5.7 4.5 7 4.15V2h3v2h4V2h3v2.15q1.3.35 2.15 1.4Q20 6.6 20 8v12q0 .825-.587 1.413Q18.825 22 18 22Zm0-2h12V8q0-.825-.587-1.412Q16.825 6 16 6H8q-.825 0-1.412.588Q6 7.175 6 8v12Zm8.5-4h2v-4h-9v2h7ZM6 20h12Z"/></svg></a>
+                  </li>
+                  <li>
+                     <a class="mini-nav-underline" href="#habilidades"><svg class="img-30px bring-up" xmlns="http://www.w3.org/2000/svg"><path d="M11 12q-1.65 0-2.825-1.175Q7 9.65 7 8q0-1.65 1.175-2.825Q9.35 4 11 4q1.65 0 2.825 1.175Q15 6.35 15 8q0 1.65-1.175 2.825Q12.65 12 11 12Zm0-2q.825 0 1.413-.588Q13 8.825 13 8t-.587-1.412Q11.825 6 11 6q-.825 0-1.412.588Q9 7.175 9 8t.588 1.412Q10.175 10 11 10Zm11.1 13.5-3.2-3.2q-.525.3-1.125.5T16.5 21q-1.875 0-3.188-1.312Q12 18.375 12 16.5q0-1.875 1.312-3.188Q14.625 12 16.5 12q1.875 0 3.188 1.312Q21 14.625 21 16.5q0 .675-.2 1.275-.2.6-.5 1.125l3.2 3.2ZM16.5 19q1.05 0 1.775-.725Q19 17.55 19 16.5q0-1.05-.725-1.775Q17.55 14 16.5 14q-1.05 0-1.775.725Q14 15.45 14 16.5q0 1.05.725 1.775Q15.45 19 16.5 19ZM3 20v-2.775q0-.85.425-1.575t1.175-1.1q1.275-.65 2.875-1.1 1.6-.45 3.55-.45-.3.45-.512.962-.213.513-.338 1.063-1.5.125-2.675.512-1.175.388-1.975.813-.25.125-.387.362Q5 16.95 5 17.225V18h5.175q.125.55.338 1.05.212.5.512.95Zm8-12Zm-.825 10Z"/></svg></a>                 
+                  </li>
+                  <li>
+                     <a class="mini-nav-underline" href="#contato"><svg class="img-30px bring-up" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M19 12q0-2.925-2.038-4.963Q14.925 5 12 5V3q1.875 0 3.513.712 1.637.713 2.85 1.925 1.212 1.213 1.925 2.85Q21 10.125 21 12Zm-4 0q0-1.25-.875-2.125T12 9V7q2.075 0 3.538 1.462Q17 9.925 17 12Zm4.95 9q-3.225 0-6.287-1.438-3.063-1.437-5.425-3.8-2.363-2.362-3.8-5.425Q3 7.275 3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.225t.325.575l.65 3.5q.05.35-.012.637-.063.288-.288.513L6.975 10.9q1.05 1.8 2.638 3.375Q11.2 15.85 13.1 17l2.35-2.35q.225-.225.588-.338.362-.112.712-.062l3.45.7q.35.075.575.337.225.263.225.613v4.05q0 .45-.3.75t-.75.3ZM6.025 9l1.65-1.65L7.25 5H5.025q.125 1.025.35 2.025.225 1 .65 1.975Zm8.95 8.95q.975.425 1.988.675 1.012.25 2.037.325v-2.2l-2.35-.475ZM6.025 9Zm8.95 8.95Z"/></svg></a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <main>
+         <section class="content-frame" id="sobre">
+            <div class="sidebar pt-250px">
+               <h1>sobre</h1>
+            </div>
+            <div class="contents pt-250px-2">
+               <div class="full-section-content-frame flex-column">
+                  <h2 class="mb-5rem">Olá, tudo bem?</h2>
+                  <p class="mb-5rem">Me chamo <strong>Alexandre Ferreira Lima</strong>, sou Bacharel em Administração.</p>
+                  <p class="mb-5rem">Minha última atuação profissional foi como Analista de Mídias Sociais na empresa Dr. Online – Equipamentos. Atualmente sou estudante de programação <strong>front-end</strong> e estou em busca de uma nova carreira profissional na área da tecnologia. Essas são algumas das minhas <strong>habilidades</strong>:</p>
+               </div>
+               <div id="sobre-images" class="flex-row mt-25px">
+                  <img src="images/windows.svg" alt="Informática e Tecnologia" class="img-15x15rem" title="Informática e Tecnologia">
+                  <img src="images/html.svg" alt="HTML" class="img-15x15rem">
+                  <img src="images/css.svg" alt="CSS" class="img-15x15rem">
+                  <img src="images/ads.svg" alt="Facebook e Google Ads" class="img-15x15rem" title="Facebook e Google Ads">
+               </div>
+            </div>
+         </section>
+         <section class="content-frame" id="projetos">
+            <div class="sidebar">
+               <h1>Projetos</h1>
+            </div>
+            <div class="contents flex-row">
+               <div class="half-section-content-frame flex-row mb-5rem2">
+                  <img src="images/restaurant-menu.svg" alt="Restaurante" class="img-4x4rem">
+                  <article class="projeto-text">
+                     <h2 class="mb-5rem">Cardápio Lima’s Bar</h2>
+                     <p>Meu primeiro projeto <strong>front-end</strong>. Um menu simples de um bar fictício. Neste projeto eu pude colocar em prática meus primeiros conhecimentos adquiridos sobre HTML e CSS.</p>
+                  </article>
+               </div>
+               <div class="half-section-content-frame flex-row">
+                  <img src="images/personal.svg" alt="Perfil" class="img-4x4rem">
+                  <article class="projeto-text">
+                     <h2 class="mb-5rem">Portfólio Pessoal</h2>
+                     <p>Meu segundo projeto <strong>front-end</strong>. Um portifófolio pessoal, apresentando um pouco sobre mim e o resultado dos meus estudos. Mais avançado, aqui pude utilizar outras técnicas, como display grid, animações e uma organização mais elaborada do projeto como um todo.</p>
+                  </article>
+               </div>
+            </div>
+         </section>
+         <section class="content-frame" id="experiencia">
+            <div class="sidebar">
+               <h1>experiÊncia</h1>
+            </div>
+            <div class="contents flex-row">
+               <div class="half-section-content-frame flex-row mb-5rem2">
+                  <img src="images/open-book.svg" alt="Livro aberto." class="img-4x4rem">
+                  <article class="projeto-text">
+                     <h2>Estágio em Administração</h2>
+                     <p class="light-complement-text">Secretaria da Saúde | Saubern</p>
+                     <p class="light-complement-text">2017 - 2019</p>
+                  </article>
+               </div>
+               <div class="half-section-content-frame flex-row">
+                  <img src="images/social-media.svg" alt="Reser sociais." class="img-4x4rem">
+                  <article class="projeto-text">
+                     <h2>Analista de Mídias Sociais</h2>
+                     <p class="light-complement-text">Dr Online Equipamentos</p>
+                     <p class="light-complement-text">2020 - 2022</p>
+                  </article>
+               </div>
+            </div>
+         </section>
+         <section class="content-frame" id="formacao">
+            <div class="sidebar">
+               <h1>Formação</h1>
+            </div>
+            <div class="contents flex-row">
+               <div class="half-section-content-frame flex-row mb-5rem2">
+                  <img src="images/school.svg" alt="Chapéu de Graduação" class="img-4x4rem">
+                  <article class="projeto-text">
+                     <h2>Administração</h2>
+                     <p class="light-complement-text">Universidade Estudual do Paraná</p>
+                     <p class="light-complement-text">2017 - 2020</p>
+                  </article>
+               </div>
+               <div class="half-section-content-frame flex-row">
+                  <img src="images/school.svg" alt="Chapéu de Graduação" class="img-4x4rem">
+                  <article class="projeto-text">
+                     <h2>Análise e Des. de Sistemas</h2>
+                     <p class="light-complement-text">Universidade Integrado</p>
+                     <p class="light-complement-text">2021 - Trancado</p>
+                  </article>
+               </div>
+            </div>
+         </section>
+         <section class="content-frame" id="habilidades">
+            <div class="sidebar">
+               <h1>Habilidades</h1>
+            </div>
+            <div class="contents flex-column">
+               <div class="mb-5rem flex-row full-section-content-frame">
+                  <img src="images/education.svg" alt="Diploma" class="img-3x3rem">
+                  <div class="flex-column">
+                     <p class="dark-complement-text">Informática e Tecnologia</p>
+                     <p class="light-complement-text">DNA | 2010 - 2012</p>
+                  </div>
+               </div>
+               <div class="mb-5rem flex-row full-section-content-frame">
+                  <img src="images/education.svg" alt="Diploma" class="img-3x3rem">
+                  <div>
+                     <p class="dark-complement-text">Facebook e Google Adwors</p>
+                     <p class="light-complement-text">Rocket Ads | 2021</p>
+                  </div>
+
+               </div>
+               <div class="mb-5rem flex-row full-section-content-frame">
+                  <img src="images/education.svg" alt="Diploma" class="img-3x3rem">
+
+                  <div>
+                     <p class="dark-complement-text">HTML e CSS</p>
+                     <p class="light-complement-text">Staart | 2022</p>
+                  </div>
+
+               </div>
+               <div class="flex-row full-section-content-frame">
+                  <img src="images/language.svg" alt="Linguagem" class="img-3x3rem">
+
+                  <div>
+                     <p class="dark-complement-text">Inglês</p>
+                     <p class="light-complement-text">Avançado</p>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+         <section class="content-frame" id="contato">
+            <div class="sidebar pb-15rem">
+               <h1>Contato</h1>
+            </div>
+            <div class="contents flex-column my-photo pb-15rem-2">
+               <div class="flex-row full-section-content-frame mb-5rem">
+                  <img src="images/mail.svg" alt="Email" class="img-3x3rem">
+                  <p><a href="mailto:alexandrelima.beta@gmail.com" class="dark-complement-text turn-dark" target="_blank">Me envie um email</a></p>
+               </div>
+               <div class="flex-row full-section-content-frame mb-5rem">
+                  <img src="images/person-round.svg" alt="Perfil" class="img-3x3rem">
+                  <p><a class="dark-complement-text turn-dark" href="https://www.linkedin.com/in/alexandrelima98/" target="_blank">Linkedin</a></p>
+               </div>            
+               <div class="flex-row full-section-content-frame mb-5rem">
+                  <img src="images/person-round.svg" alt="Perfil" class="img-3x3rem">
+                  <p><a class="dark-complement-text turn-dark" href="https://www.instagram.com/aleelim_/" target="_blank">Instagram</a></p>
+               </div>
+               <p class="small-complement-text">Alexandre Lima. 18 de novembro de 2022.</p>
+            </div>
+         </section>
+      </main>
+   </body>
+</html>
