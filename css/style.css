@@ -138,6 +138,7 @@ span {
 
 .turn-dark {
    transition: 0.5s;
+   cursor: pointer;
 }
 
 .turn-dark:hover, .turn-dark:focus {
