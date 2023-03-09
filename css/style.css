@@ -119,6 +119,14 @@ span {
    justify-content: space-between;
 }
 
+#projects-content {
+   width: 100%;
+}
+
+.projects-content-2container {
+   padding-top: 5rem !important;
+}
+
 .turn-green {
    transition: 0.5s;
 }
