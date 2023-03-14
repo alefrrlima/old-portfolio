@@ -18,7 +18,7 @@
    list-style: none;
    text-decoration: none;
    box-sizing: border-box;
-   transition: 0.5s;
+   transition: 0.1s;
 }
 
 html {
@@ -61,7 +61,7 @@ header ul li a{
    font-weight: 300;
    font-size: 2.5rem;
    line-height: 3.5rem;
-   transition: 0.5s;
+   transition: 0.1s;
 }
 
 nav {
@@ -96,6 +96,7 @@ h2 {
    font-size: 3rem;
    line-height: 4rem;
    font-weight: 500;
+   color: var(--color01);
 }
 
 p {
@@ -128,7 +129,7 @@ span {
 }
 
 .turn-green {
-   transition: 0.5s;
+   transition: 0.1s;
 }
 
 .turn-green:hover, .turn-green:focus {
@@ -137,7 +138,7 @@ span {
 }
 
 .turn-dark {
-   transition: 0.5s;
+   transition: 0.1s;
    cursor: pointer;
 }
 
@@ -284,6 +285,10 @@ span {
    background-position: right bottom;
 }
 
+.project-link:hover, .project-link:focus {
+   color: var(--color03);
+}
+
 
 /* - - - - RESPONSIVE DISPLAY - - - - */
 
@@ -383,11 +388,11 @@ span {
    header ul li a{
       font-size: 2rem;
       line-height: 3rem;
-      transition: 0.5s;
+      transition: 0.1s;
    }
 
    .turn-green {
-      transition: 0.5s;
+      transition: 0.1s;
    }
    
    .turn-green:hover, .turn-green:focus {
@@ -505,11 +510,11 @@ span {
    header ul li a{
       font-size: 1.5rem;
       line-height: 2.5rem;
-      transition: 0.5s;
+      transition: 0.1s;
    }
 
    .turn-green {
-      transition: 0.5s;
+      transition: 0.1s;
    }
    
    .turn-green:hover, .turn-green:focus {
@@ -551,7 +556,7 @@ span {
    }
 
    .turn-dark {
-      transition: 0.5s;
+      transition: 0.1s;
    }
    
    .turn-dark:hover, .turn-dark:focus {
@@ -654,11 +659,11 @@ span {
    header ul li a{
       font-size: 1.25rem;
       line-height: 2.25rem;
-      transition: 0.5s;
+      transition: 0.1s;
    }
 
    .turn-green {
-      transition: 0.5s;
+      transition: 0.1s;
    }
    
    .turn-green:hover, .turn-green:focus {
@@ -787,7 +792,7 @@ span {
    }
 
    .bring-up {
-      transition: 0.5ms;
+      transition: 0.1s;
    }
    
    .bring-up:active  {
@@ -808,7 +813,7 @@ span {
    }
 
    .turn-dark {
-      transition: 0.5s;
+      transition: 0.1s;
    }
    
    .turn-dark:hover, .turn-dark:focus {
